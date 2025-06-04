@@ -13,7 +13,7 @@ Vue.use(Router);
 export default new Router({
   mode: 'history', // para URLs "limpas" sem #
   routes: [
-    { path: '/', redirect: '/introducao' },
+    { path: '/', component: Introducao},
     { path: '/introducao', component: Introducao },
     { path: '/oque5g', component: Oque5g },
     { path: '/aplicacoes', component: Aplicacoes },
