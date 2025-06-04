@@ -8,6 +8,7 @@
       <router-link to="/beneficios">Benefícios</router-link>
       <router-link to="/seguranca">Segurança</router-link>
       <router-link to="/conclusao">Conclusão</router-link>
+      <router-link to="/referencias">Referencias</router-link>
     </div>
   </nav>
 </template>

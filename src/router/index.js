@@ -7,6 +7,7 @@ import Aplicacoes from '@/views/Aplicacoes.vue';
 import Beneficios from '@/views/Beneficios.vue';
 import Seguranca from '@/views/Seguranca.vue';
 import Conclusao from '@/views/Conclusao.vue';
+import Referencias from '@/views/Referencias.vue';
 
 Vue.use(Router);
 
@@ -20,5 +21,6 @@ export default new Router({
     { path: '/beneficios', component: Beneficios },
     { path: '/seguranca', component: Seguranca },
     { path: '/conclusao', component: Conclusao },
+    { path: '/referencias', component: Referencias },
   ],
 });
