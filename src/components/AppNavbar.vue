@@ -9,6 +9,7 @@
       <router-link to="/seguranca">Segurança</router-link>
       <router-link to="/conclusao">Conclusão</router-link>
       <router-link to="/referencias">Referencias</router-link>
+      <router-link to="/participantes">Participantes</router-link>
     </div>
   </nav>
 </template>
